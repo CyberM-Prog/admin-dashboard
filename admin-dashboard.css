@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 100vh;
+    background-color: aqua;
+    display: grid;
+    grid-template: 1fr 5fr / 1fr 4fr;
+}
+
+.sidebar {
+    background-color: #42C2FF;
+    grid-row: 1 / -1;
+    grid-column: 1 / 2;
+
+}
+
+.header {
+    background-color: #EFFFFD;
+
+}
+
+.main {
+    background-color: #B8FFF9;
+
+}
