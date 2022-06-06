@@ -10,7 +10,7 @@
     height: 100vh;
     background-color: aqua;
     display: grid;
-    grid-template: 1fr 5fr / 1fr 4fr;
+    grid-template: 1fr 4.85fr / 1fr 4fr;
 }
 
 .sidebar {
@@ -32,7 +32,12 @@
     background-color: #EFFFFD;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    padding: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    grid-row: 1 / 2;
 }
 
 .hrow1l {
@@ -97,6 +102,50 @@ img {
     grid-auto-flow: column;
     align-items: center;
     align-content: start;
+}
+
+.hrow2 {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.hrow2right {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    gap: 40px;
+    align-content: center;
+    align-items: center;
+}
+
+.hrow2right button {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border-radius: 25px;
+    background-color: #42C2FF;
+    border-width: 0;
+    color: white;
+    font-size: 16px;
+}
+
+.hrow2left {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.hrow2left img {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+}
+
+.bold {
+    font-weight: 900;
 }
 
 
